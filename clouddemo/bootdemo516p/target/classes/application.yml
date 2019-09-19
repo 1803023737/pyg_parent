@@ -1,0 +1,12 @@
+#\u7AEF\u53E3\u53F7\u4E0E\u7F51\u9875\u524D\u7F00
+server:
+  port: 8080
+  servlet:
+    context-path: /web
+spring:
+## jsp\u652F\u6301
+  mvc:
+    view:
+        suffix: .jsp
+        prefix: /WEB-INF/jsp/
+

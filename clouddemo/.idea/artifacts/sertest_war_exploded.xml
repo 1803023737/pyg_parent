@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sertest:war exploded">
+    <output-path>$PROJECT_DIR$/sertest/target/sertest</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sertest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.31" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/sertest/target/sertest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sertest/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,5 @@
+#EnableAutoConfiguration注解自动配置，加载配置类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.boot.core.config.BeanConfiguration,\
+  com.boot.core.config.UserConfiguration,\
+  com.boot.core.bean.Role

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular.min.js"></script>
+    <script>
+        var app = angular.module("myapp", []);
+        app..controller("myController", function ($scope, $http) {
+
+            //http服务获得list
+            $scope.findList = function () {
+                //ajax封装
+                $http.get("data.json").success(
+                    function (response) {
+                        $scope.list = response;
+                    });
+            }
+
+            //调用方式二：当别的页面控制器被调用  则也会被调用这个方法
+            // $scope.findList();
+
+        })
+
+    </script>
+</head>
+<!--调用方法1  页面加载时调用-->
+<body ng-app="myapp" ng-.controller="myController" ng-init="findList()">
+
+<table>
+    <tr>
+        <td>姓名</td>
+        <td>语文</td>
+        <td>数学</td>
+    </tr>
+    <tr ng-repeat="a in list">
+        <td>{{a.name}}</td>
+        <td>{{a.chinese}}</td>
+        <td>{{a.math}}</td>
+    </tr>
+</table>
+
+</body>
+</html>

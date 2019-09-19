@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angular 事件指令</title>
+    <script src="angular.min.js"></script>
+    <script>
+
+        //1.建议模块
+        var  app=angular.module("myapp",[]);
+
+        //创建控制器  有点像java类
+        app.controller("myController",function ($scope) {
+            //$scope  控制层与视图交换数据的桥梁
+            //控制器中封装方法
+
+            //私有方法
+            add1=function () {
+                
+            }
+
+            //共享方法
+            //add 方法
+            $scope.add=function () {
+                 return  $scope.x+$scope.y;
+            }
+            $scope.add2=function () {
+                $scope.z= parseInt($scope.x) +parseInt($scope.y);
+            }
+
+        });
+
+    </script>
+</head>
+<!--下面指定模块 控制器  对应的视图-->
+<!--ng-com.itjd.controller  指定视图对应的控制器-->
+<body ng-app="myapp" ng-controller="myController">
+
+第一个数：<input ng-model="x">
+第二个数：<input ng-model="y">
+
+<br>
+<button ng-click="add2()">求和计算</button>
+运算结果：{{z}}
+</body>
+</html>

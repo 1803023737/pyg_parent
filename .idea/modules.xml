@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freemarker_demo/freemarker_demo.iml" filepath="$PROJECT_DIR$/freemarker_demo/freemarker_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmsdemo/jmsdemo.iml" filepath="$PROJECT_DIR$/jmsdemo/jmsdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_common/pyg_common.iml" filepath="$PROJECT_DIR$/pyg_common/pyg_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_content_interface/pyg_content_interface.iml" filepath="$PROJECT_DIR$/pyg_content_interface/pyg_content_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_content_service/pyg_content_service.iml" filepath="$PROJECT_DIR$/pyg_content_service/pyg_content_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_dao/pyg_dao.iml" filepath="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" filepath="$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_page_interface/pyg_page_interface.iml" filepath="$PROJECT_DIR$/pyg_page_interface/pyg_page_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_page_service/pyg_page_service.iml" filepath="$PROJECT_DIR$/pyg_page_service/pyg_page_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_page_web/pyg_page_web.iml" filepath="$PROJECT_DIR$/pyg_page_web/pyg_page_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_parent.iml" filepath="$PROJECT_DIR$/pyg_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" filepath="$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_protal_web/pyg_protal_web.iml" filepath="$PROJECT_DIR$/pyg_protal_web/pyg_protal_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_search_interface/pyg_search_interface.iml" filepath="$PROJECT_DIR$/pyg_search_interface/pyg_search_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_search_service/pyg_search_service.iml" filepath="$PROJECT_DIR$/pyg_search_service/pyg_search_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_search_web/pyg_search_web.iml" filepath="$PROJECT_DIR$/pyg_search_web/pyg_search_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" filepath="$PROJECT_DIR$/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" filepath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_shop_web/pyg_shop_web.iml" filepath="$PROJECT_DIR$/pyg_shop_web/pyg_shop_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_solr_util/pyg_solr_util.iml" filepath="$PROJECT_DIR$/pyg_solr_util/pyg_solr_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solr_jddemo/solr_jddemo.iml" filepath="$PROJECT_DIR$/solr_jddemo/solr_jddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springDataSolr/springDataSolr.iml" filepath="$PROJECT_DIR$/springDataSolr/springDataSolr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_secuity_test/spring_secuity_test.iml" filepath="$PROJECT_DIR$/spring_secuity_test/spring_secuity_test.iml" />
+    </modules>
+  </component>
+</project>

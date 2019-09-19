@@ -1,0 +1,24 @@
+server:
+  port: 7000
+  servlet-path: /
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/boot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+#mybatis 配置文件
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.dd.boot.study.entity
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+

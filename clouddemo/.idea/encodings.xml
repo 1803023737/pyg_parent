@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_demo3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo51" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo512" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo512/src/main/java/com/boot/App.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo513" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo514" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo515" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo516p" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo517p" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo518p" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo519p" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo51aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo51jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootdemo51tomcat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core_bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core_initializer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jspdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sertest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user_customer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user_service2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul_service" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

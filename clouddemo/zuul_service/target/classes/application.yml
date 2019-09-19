@@ -1,0 +1,47 @@
+server:
+  port: 20000
+#拉取服务列表
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10000/eureka
+#  路由规则  这样写死了url地址
+#zuul:
+#  routes:
+#    hehe:
+#      path: /user-service/**
+#      serviceId: user-service
+      #serviceId 形式的需要配置eureka客户端
+#      url: http://127.0.0.1:8101
+
+#简化配置1
+#zuul:
+#  routes:
+#    user-service: /user-service/**
+##    忽略配置
+#  ignored-services:
+#      - user-customer
+
+#简化配置2   path 必须与接口路径的第一个单词一致
+#zuul:
+#  routes:
+#    user-service:
+#      path: /user/**
+#      serviceId: user-service
+#      strip-prefix: false
+##    忽略配置
+#  ignored-services:
+#      - user-customer
+
+
+zuul:
+  routes:
+    user-service: /user/**
+#    忽略配置
+  ignored-services:
+      - user-customer
+  prefix: /api
+
+
+
+

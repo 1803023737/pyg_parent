@@ -1,0 +1,38 @@
+server:
+  port: 8101
+  servlet:
+#    path: "*.html"
+    path: /
+logging:
+  level:
+    com: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/boot
+    username: root
+    password: 123456
+  application:
+    name: user-service
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+ # mapping-locations: mapping/*.xml
+  type-aliases-package: com.boot.user.pojo
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://127.0.0.1:18001/eureka,http://127.0.0.1:18002/eureka
+      defaultZone: http://127.0.0.1:10000/eureka,http://127.0.0.1:10001/eureka
+  instance:
+      prefer-ip-address: true
+      ip-address: 127.0.0.1
+      instance-id: ${spring.application.name}:${server.port}
+#  instance:
+#    instance-id: ${spring.application.name}:${server.port}
+#    prefer-ip-address: true
+#    ip-address: 127.0.0.1
+#    #心跳时长   每隔30s发一次心跳
+#    lease-renewal-interval-in-seconds: 30
+#    #过期时长   如果90s多没发 那么说明注册的服务挂了
+#    lease-expiration-duration-in-seconds: 90

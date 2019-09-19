@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fast_dfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/freemarker_demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jmsdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lucenceDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_content_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_content_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_page_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_page_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_page_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_protal_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_search_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_search_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_search_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_sellergoods_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_sellergoods_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_shop_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_solr_util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solrDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springDataSolr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_secuity_test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springdata_redis_demo" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

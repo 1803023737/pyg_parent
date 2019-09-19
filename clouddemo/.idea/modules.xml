@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot_demo3/boot_demo3.iml" filepath="$PROJECT_DIR$/boot_demo3/boot_demo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo51/bootdemo51.iml" filepath="$PROJECT_DIR$/bootdemo51/bootdemo51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo512/bootdemo512.iml" filepath="$PROJECT_DIR$/bootdemo512/bootdemo512.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo513/bootdemo513.iml" filepath="$PROJECT_DIR$/bootdemo513/bootdemo513.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo514/bootdemo514.iml" filepath="$PROJECT_DIR$/bootdemo514/bootdemo514.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo515/bootdemo515.iml" filepath="$PROJECT_DIR$/bootdemo515/bootdemo515.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo516p/bootdemo516p.iml" filepath="$PROJECT_DIR$/bootdemo516p/bootdemo516p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo517p/bootdemo517p.iml" filepath="$PROJECT_DIR$/bootdemo517p/bootdemo517p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo518p/bootdemo518p.iml" filepath="$PROJECT_DIR$/bootdemo518p/bootdemo518p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo519p/bootdemo519p.iml" filepath="$PROJECT_DIR$/bootdemo519p/bootdemo519p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo51aop/bootdemo51aop.iml" filepath="$PROJECT_DIR$/bootdemo51aop/bootdemo51aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo51jdbc/bootdemo51jdbc.iml" filepath="$PROJECT_DIR$/bootdemo51jdbc/bootdemo51jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootdemo51tomcat/bootdemo51tomcat.iml" filepath="$PROJECT_DIR$/bootdemo51tomcat/bootdemo51tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouddemo.iml" filepath="$PROJECT_DIR$/clouddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core_bean/core_bean.iml" filepath="$PROJECT_DIR$/core_bean/core_bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core_initializer/core_initializer.iml" filepath="$PROJECT_DIR$/core_initializer/core_initializer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jspdemo/jspdemo.iml" filepath="$PROJECT_DIR$/jspdemo/jspdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sertest/sertest.iml" filepath="$PROJECT_DIR$/sertest/sertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring4/spring4.iml" filepath="$PROJECT_DIR$/spring4/spring4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_customer/user_customer.iml" filepath="$PROJECT_DIR$/user_customer/user_customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_service2/user_service2.iml" filepath="$PROJECT_DIR$/user_service2/user_service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul_service/zuul_service.iml" filepath="$PROJECT_DIR$/zuul_service/zuul_service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>demo1</servlet-name>
+        <servlet-class>demo1.ServletDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo1</servlet-name>
+        <url-pattern>/demo1.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>demo2</servlet-name>
+        <servlet-class>demo1.ServletDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo2</servlet-name>
+        <url-pattern>/demo2.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>demo5</servlet-name>
+        <servlet-class>demo1.ServletDemo05</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo5</servlet-name>
+        <url-pattern>/demo5.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>demo6</servlet-name>
+        <servlet-class>demo1.ServletDemo06</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo6</servlet-name>
+        <url-pattern>/demo6.do</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angular 循环对象指令</title>
+    <script src="angular.min.js"></script>
+    <script>
+
+        //1.建议模块
+        var  app=angular.module("myapp",[]);
+
+        //创建控制器  有点像java类
+        app.controller("myController",function ($scope) {
+
+            $scope.list=[
+                {name:"占山",chinese:100,math:90},
+                {name:"王五",chinese:99,math:90},
+                {name:"李四",chinese:88,math:77},
+            ];
+        });
+
+    </script>
+</head>
+<!--下面指定模块 控制器  对应的视图-->
+<!--ng-com.itjd.controller  指定视图对应的控制器-->
+<body ng-app="myapp" ng-controller="myController">
+
+<table>
+    <tr>
+        <td>姓名</td>
+        <td>语文</td>
+        <td>数学</td>
+    </tr>
+    <tr ng-repeat="a in list">
+        <td>{{a.name}}</td>
+        <td>{{a.chinese}}</td>
+        <td>{{a.math}}</td>
+    </tr>
+</table>
+</body>
+</html>

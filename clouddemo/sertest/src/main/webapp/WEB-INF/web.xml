@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>demo1</servlet-name>
+        <servlet-class>demo1.ServletDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo1</servlet-name>
+        <url-pattern>/demo1.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>demo2</servlet-name>
+        <servlet-class>demo1.ServletDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo2</servlet-name>
+        <url-pattern>/demo2.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>demo5</servlet-name>
+        <servlet-class>demo1.ServletDemo05</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo5</servlet-name>
+        <url-pattern>/demo5.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>demo6</servlet-name>
+        <servlet-class>demo1.ServletDemo06</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo6</servlet-name>
+        <url-pattern>/demo6.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>s1</servlet-name>
+        <servlet-class>servletContext.ServletContextDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern>/s1.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>s2</servlet-name>
+        <servlet-class>servletContext.ServletContextDemo2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>s2</servlet-name>
+        <url-pattern>/s2.do</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>s4</servlet-name>
+        <servlet-class>forward.ServletContextDemo4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>s4</servlet-name>
+        <url-pattern>/s4.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>s5</servlet-name>
+        <servlet-class>forward.ServletContextDemo5</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>s5</servlet-name>
+        <url-pattern>/s5.do</url-pattern>
+    </servlet-mapping>
+</web-app>

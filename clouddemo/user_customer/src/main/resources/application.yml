@@ -1,0 +1,38 @@
+server:
+  port: 8201
+  servlet:
+#    path: "*.html"
+    path: /
+spring:
+  application:
+    name: user-customer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10000/eureka,http://127.0.0.1:10001/eureka
+    fetch-registry: true
+    registry-fetch-interval-seconds: 30
+  instance:
+      ip-address: 127.0.0.1
+      prefer-ip-address: true
+      instance-id: ${spring.application.name}:${server.port}
+      lease-renewal-interval-in-seconds: 30
+      lease-expiration-duration-in-seconds: 90
+logging:
+  level:
+    com: debug
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+#fegin 启动hystrix
+feign:
+  hystrix:
+    enabled: true
+######fegin  需要配置ribbon和hystrix
+ribbon:
+  ConnectionTimeout: 1000
+  ReadTimeOut: 2000

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/boot_demo3" />
+    <file type="web" url="file://$PROJECT_DIR$/bootdemo516p" />
+    <file type="web" url="file://$PROJECT_DIR$/eureka_server" />
+    <file type="web" url="file://$PROJECT_DIR$/jspdemo" />
+    <file type="web" url="file://$PROJECT_DIR$/sertest" />
+    <file type="web" url="file://$PROJECT_DIR$/user_customer" />
+    <file type="web" url="file://$PROJECT_DIR$/user_service2" />
+    <file type="web" url="file://$PROJECT_DIR$/zuul_service" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_demo3/pom.xml" />
+        <option value="$PROJECT_DIR$/sertest/pom.xml" />
+        <option value="$PROJECT_DIR$/spring4/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo51/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo512/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo513/pom.xml" />
+        <option value="$PROJECT_DIR$/core_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/core_initializer/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo514/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo515/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo516p/pom.xml" />
+        <option value="$PROJECT_DIR$/jspdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo517p/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo518p/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo519p/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo51tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo51jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/bootdemo51aop/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.springframework.org/schema/beans" location="$PROJECT_DIR$/../../../pinyougou-server/yueshu/spring-beans-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/context" location="$PROJECT_DIR$/../../../pinyougou-server/yueshu/spring-context-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/mvc" location="$PROJECT_DIR$/../../../pinyougou-server/yueshu/spring-mvc-4.2.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

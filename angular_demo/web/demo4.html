@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angular 控制器</title>
+    <script src="angular.min.js"></script>
+    <script>
+
+        //1.定义模块
+        var app=angular.module("myapp",[]);
+
+        //创建控制器  有点像java类
+        app.controller("myController",function ($scope) {
+            //$scope  控制层与视图交换数据的桥梁
+            //控制器中封装方法
+
+            //私有方法
+            add1=function () {
+                
+            }
+
+            //共享方法
+            //add 方法
+            $scope.add=function () {
+                 return  $scope.x+$scope.y;
+            }
+            $scope.add2=function () {
+                return  parseInt($scope.x) +parseInt($scope.y);
+            }
+
+        });
+
+    </script>
+</head>
+<!--下面指定模块 控制器  对应的视图-->
+<!--ng-com.itjd.controller  指定视图对应的控制器-->
+<body ng-app="myapp" ng-controller="myController">
+
+第一个数：<input ng-model="x">
+第二个数：<input ng-model="y">
+
+{{x+y}}<br>
+{{add()}}<br>
+{{add2()}}
+</body>
+</html>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sertest:war">
+    <output-path>$PROJECT_DIR$/sertest/target</output-path>
+    <root id="archive" name="sertest.war">
+      <element id="artifact" artifact-name="sertest:war exploded" />
+    </root>
+  </artifact>
+</component>

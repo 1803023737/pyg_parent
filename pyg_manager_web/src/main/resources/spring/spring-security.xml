@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <!--设置页面不登陆也可以访问  -->
+    <!--根目录全部页面放行-->
+    <http pattern="/*.html" security="none"></http>
+    <http pattern="/css/**" security="none"></http>
+    <http pattern="/img/**" security="none"></http>
+    <http pattern="/js/**" security="none"></http>
+    <http pattern="/plugins/**" security="none"></http>
+
+
+    <!--页面拦截规则-->
+    <!--是否启用spel表达式  默认时true-->
+    <http use-expressions="false">
+        <!--包括目录并且包括子目录-->
+        <!--access 角色名称-->
+        <!--当前用户必须有ROLE_USER 角色才可以访问根目录及所属子目录资源-->
+        <intercept-url pattern="/**" access="ROLE_ADMIN"></intercept-url>
+        <!--如果不配置 use-expressions="false" 要写下面的表达式-->
+        <!--<intercept-url pattern="/**" access="hasRole(ROLE_USER)"></intercept-url>-->
+        <!--开启表单登陆功能-->
+        <!--自定义登录页  login-processing-url  配置登陆表单校验地址-->
+        <form-login login-processing-url="/login" login-page="/login.html" default-target-url="/admin/index.html" authentication-failure-url="/login.html" always-use-default-target="true"></form-login>
+        <!--不校验csrf-->
+        <csrf disabled="true"></csrf>
+        <!--内部框架页拦截  释放-->
+        <headers>
+            <frame-options policy="SAMEORIGIN"></frame-options>
+        </headers>
+        <!--设置退出配置  logout-success-url 不配置默认退出登录页  logout-url退出的地址action-->
+        <logout ></logout>
+    </http>
+
+    <!--认证管理器-->
+    <authentication-manager>
+        <!--认证提供者-->
+        <authentication-provider>
+            <user-service>
+                <!--配置用户角色-->
+                <user name="admin" password="123456" authorities="ROLE_ADMIN" ></user>
+                <user name="sunwukong" password="dasheng" authorities="ROLE_ADMIN" ></user>
+            </user-service>
+        </authentication-provider>
+    </authentication-manager>
+
+
+</beans:beans>

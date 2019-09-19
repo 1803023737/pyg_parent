@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$/pyg_search_web/overlays" />
+    <file type="web" url="file://$PROJECT_DIR$/jmsdemo" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_content_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_page_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_page_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_protal_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_search_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_search_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_sellergoods_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_shop_web" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_secuity" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_secuity_test" />
+    <file type="web" url="file://$PROJECT_DIR$/springDataSolr" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_secuity_test/pom.xml" />
+        <option value="$PROJECT_DIR$/springDataSolr/pom.xml" />
+        <option value="$PROJECT_DIR$/freemarker_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jmsdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Test/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.springframework.org/schema/beans" location="$PROJECT_DIR$/../../pinyougou-server/yueshu/spring-beans-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/context/spring-context.xsd" location="$PROJECT_DIR$/../../pinyougou-server/yueshu/spring-context-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/mvc" location="$PROJECT_DIR$/../../pinyougou-server/yueshu/spring-mvc-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/security" location="$PROJECT_DIR$/../../pinyougou-server/yueshu/spring-security.xsd" />
+    <resource url="http://www.springframework.org/schema/tx" location="$PROJECT_DIR$/../../pinyougou-server/yueshu/spring-tx-4.2.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
